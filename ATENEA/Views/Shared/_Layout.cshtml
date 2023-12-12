@@ -1,0 +1,91 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - ATENEA</title>
+    <!--Bootstrap Css-->
+	<link href="~/css/bootstrap.min.css" rel="stylesheet" />
+	<!-- Dashboard Css -->
+	<link href="~/css/dashboard.css" rel="stylesheet" />
+	<link href="~/assets/plugins/accordion/accordion.css" rel="stylesheet" />
+	<!-- c3.js Charts Plugin -->
+	<link href="~/css/c3-chart.css" rel="stylesheet" />
+	<!-- Custom scroll bar css-->
+	<link href="~/css/jquery.mCustomScrollbar.css" rel="stylesheet" />
+	<!-- Horizontal-menu Css -->
+	<link id="switcher" href="~/css/horizontal-menu.css" rel="stylesheet">
+	<!-- Notifications  Css -->
+	<link href="~/css/jquery.growl.css" rel="stylesheet" />
+	<!---Font icons-->
+	<link href="~/css/icons.css" rel="stylesheet" />
+	<!---validetta-->
+	<link href="~/css/validetta.css" rel="stylesheet" />
+	<!---Font Family-->
+	<link href="~/css/font-style1.css" rel="stylesheet" type="text/css" media="all" />
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3">
+            <div class="container-fluid">
+                <a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Index">ATENEA</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target=".navbar-collapse" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="navbar-collapse collapse d-sm-inline-flex justify-content-between">
+                    <ul class="navbar-nav flex-grow-1">
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Alumnos">Alumnos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Index">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <div class="container">
+        <main role="main" class="pb-3">
+            @RenderBody()
+        </main>
+    </div>
+
+    <script src="~/lib/jquery/dist/css/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+    <!-- JQuery js-->
+	<script src="~/js/generic3.js"></script>
+	<script src="~/js/permisos.js"></script>
+	<script src="~/js/jquery-3.2.1.min.js"></script>
+	<!-- Bootstrap js -->
+	<script src="~/js/popper.min.js"></script>
+	<script src="~/js/bootstrap.min.js"></script>
+	<!--JQuerysparkline Js-->
+	<script src="~/js/jquery.sparkline.min.js"></script>
+	<!-- Selectize js -->
+	<script src="~/js/selectize.min.js"></script>
+	<!-- Table Sorter js -->
+	<script src="~/js/jquery.tablesorter.min.js"></script>
+	<!-- Circle Progress Js-->
+	<script src="~/js/circle-progress.min.js"></script>
+	<!-- Star Rating Js-->
+	<script src="~/js/jquery.rating-stars.js"></script>
+	<!--Horizontal-menu Js-->
+	<script src="~/js/horizontal-menu.js"></script>
+	<!-- Notifications js -->
+	<script src="~/js/jquery.growl.js"></script>
+	@* <script src="~/assets/plugins/notify/js/sample.js"></script> *@
+	<!-- sticky js-->
+	<script src="~/js/sticky.js"></script>
+	<!-- Custom scroll bar Js-->
+	<script src="~/js/jquery.mCustomScrollbar.concat.min.js"></script>
+	<!-- Custom Js-->
+	<script src="~/js/custom.js"></script>
+	@await RenderSectionAsync("Scripts", required: false)
+</body>
+</html>

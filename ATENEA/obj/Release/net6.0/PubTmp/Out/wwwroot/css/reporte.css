@@ -1,0 +1,13 @@
+.container{
+    color: blueviolet;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 2rem;
+    background-color: brown;
+}
+
+.columna{
+    width: 446px;
+    background-color: aqua;
+    display: inline-block;
+}

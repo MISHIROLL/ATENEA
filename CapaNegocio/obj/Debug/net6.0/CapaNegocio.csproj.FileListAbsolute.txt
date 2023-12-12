@@ -1,0 +1,34 @@
+C:\Users\Arturo\Desktop\ProyectoTT\ATENEA\CapaNegocio\bin\Debug\net6.0\CapaNegocio.deps.json
+C:\Users\Arturo\Desktop\ProyectoTT\ATENEA\CapaNegocio\bin\Debug\net6.0\CapaNegocio.dll
+C:\Users\Arturo\Desktop\ProyectoTT\ATENEA\CapaNegocio\bin\Debug\net6.0\CapaNegocio.pdb
+C:\Users\Arturo\Desktop\ProyectoTT\ATENEA\CapaNegocio\bin\Debug\net6.0\CapaDatos.dll
+C:\Users\Arturo\Desktop\ProyectoTT\ATENEA\CapaNegocio\bin\Debug\net6.0\CapaEntidad.dll
+C:\Users\Arturo\Desktop\ProyectoTT\ATENEA\CapaNegocio\bin\Debug\net6.0\CapaDatos.pdb
+C:\Users\Arturo\Desktop\ProyectoTT\ATENEA\CapaNegocio\bin\Debug\net6.0\CapaEntidad.pdb
+C:\Users\Arturo\Desktop\ProyectoTT\ATENEA\CapaNegocio\obj\Debug\net6.0\CapaNegocio.csproj.AssemblyReference.cache
+C:\Users\Arturo\Desktop\ProyectoTT\ATENEA\CapaNegocio\obj\Debug\net6.0\CapaNegocio.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Arturo\Desktop\ProyectoTT\ATENEA\CapaNegocio\obj\Debug\net6.0\CapaNegocio.AssemblyInfoInputs.cache
+C:\Users\Arturo\Desktop\ProyectoTT\ATENEA\CapaNegocio\obj\Debug\net6.0\CapaNegocio.AssemblyInfo.cs
+C:\Users\Arturo\Desktop\ProyectoTT\ATENEA\CapaNegocio\obj\Debug\net6.0\CapaNegocio.csproj.CoreCompileInputs.cache
+C:\Users\Arturo\Desktop\ProyectoTT\ATENEA\CapaNegocio\obj\Debug\net6.0\CapaNegocio.csproj.CopyComplete
+C:\Users\Arturo\Desktop\ProyectoTT\ATENEA\CapaNegocio\obj\Debug\net6.0\CapaNegocio.dll
+C:\Users\Arturo\Desktop\ProyectoTT\ATENEA\CapaNegocio\obj\Debug\net6.0\refint\CapaNegocio.dll
+C:\Users\Arturo\Desktop\ProyectoTT\ATENEA\CapaNegocio\obj\Debug\net6.0\CapaNegocio.pdb
+C:\Users\Arturo\Desktop\ProyectoTT\ATENEA\CapaNegocio\obj\Debug\net6.0\ref\CapaNegocio.dll
+C:\Users\lzapata\OneDrive - BIENES PROGRAMADOS S.A. DE C.V\Imágenes\ATENEA\CapaNegocio\bin\Debug\net6.0\CapaNegocio.deps.json
+C:\Users\lzapata\OneDrive - BIENES PROGRAMADOS S.A. DE C.V\Imágenes\ATENEA\CapaNegocio\bin\Debug\net6.0\CapaNegocio.dll
+C:\Users\lzapata\OneDrive - BIENES PROGRAMADOS S.A. DE C.V\Imágenes\ATENEA\CapaNegocio\bin\Debug\net6.0\CapaNegocio.pdb
+C:\Users\lzapata\OneDrive - BIENES PROGRAMADOS S.A. DE C.V\Imágenes\ATENEA\CapaNegocio\bin\Debug\net6.0\CapaDatos.dll
+C:\Users\lzapata\OneDrive - BIENES PROGRAMADOS S.A. DE C.V\Imágenes\ATENEA\CapaNegocio\bin\Debug\net6.0\CapaEntidad.dll
+C:\Users\lzapata\OneDrive - BIENES PROGRAMADOS S.A. DE C.V\Imágenes\ATENEA\CapaNegocio\bin\Debug\net6.0\CapaDatos.pdb
+C:\Users\lzapata\OneDrive - BIENES PROGRAMADOS S.A. DE C.V\Imágenes\ATENEA\CapaNegocio\bin\Debug\net6.0\CapaEntidad.pdb
+C:\Users\lzapata\OneDrive - BIENES PROGRAMADOS S.A. DE C.V\Imágenes\ATENEA\CapaNegocio\obj\Debug\net6.0\CapaNegocio.csproj.AssemblyReference.cache
+C:\Users\lzapata\OneDrive - BIENES PROGRAMADOS S.A. DE C.V\Imágenes\ATENEA\CapaNegocio\obj\Debug\net6.0\CapaNegocio.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\lzapata\OneDrive - BIENES PROGRAMADOS S.A. DE C.V\Imágenes\ATENEA\CapaNegocio\obj\Debug\net6.0\CapaNegocio.AssemblyInfoInputs.cache
+C:\Users\lzapata\OneDrive - BIENES PROGRAMADOS S.A. DE C.V\Imágenes\ATENEA\CapaNegocio\obj\Debug\net6.0\CapaNegocio.AssemblyInfo.cs
+C:\Users\lzapata\OneDrive - BIENES PROGRAMADOS S.A. DE C.V\Imágenes\ATENEA\CapaNegocio\obj\Debug\net6.0\CapaNegocio.csproj.CoreCompileInputs.cache
+C:\Users\lzapata\OneDrive - BIENES PROGRAMADOS S.A. DE C.V\Imágenes\ATENEA\CapaNegocio\obj\Debug\net6.0\CapaNegocio.csproj.CopyComplete
+C:\Users\lzapata\OneDrive - BIENES PROGRAMADOS S.A. DE C.V\Imágenes\ATENEA\CapaNegocio\obj\Debug\net6.0\CapaNegocio.dll
+C:\Users\lzapata\OneDrive - BIENES PROGRAMADOS S.A. DE C.V\Imágenes\ATENEA\CapaNegocio\obj\Debug\net6.0\refint\CapaNegocio.dll
+C:\Users\lzapata\OneDrive - BIENES PROGRAMADOS S.A. DE C.V\Imágenes\ATENEA\CapaNegocio\obj\Debug\net6.0\CapaNegocio.pdb
+C:\Users\lzapata\OneDrive - BIENES PROGRAMADOS S.A. DE C.V\Imágenes\ATENEA\CapaNegocio\obj\Debug\net6.0\ref\CapaNegocio.dll

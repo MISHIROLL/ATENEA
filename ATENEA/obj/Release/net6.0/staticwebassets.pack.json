@@ -1,0 +1,409 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\lzapata\\OneDrive - BIENES PROGRAMADOS S.A. DE C.V\\Imágenes\\ATENEA\\ATENEA\\obj\\Release\\net6.0\\scopedcss\\projectbundle\\ATENEA.bundle.scp.css",
+      "PackagePath": "staticwebassets\\ATENEA.bundle.scp.css"
+    },
+    {
+      "Id": "C:\\Users\\lzapata\\OneDrive - BIENES PROGRAMADOS S.A. DE C.V\\Imágenes\\ATENEA\\ATENEA\\wwwroot\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\lzapata\\OneDrive - BIENES PROGRAMADOS S.A. DE C.V\\Imágenes\\ATENEA\\ATENEA\\wwwroot\\css\\c3-chart.css",
+      "PackagePath": "staticwebassets\\css\\c3-chart.css"
+    },
+    {
+      "Id": "C:\\Users\\lzapata\\OneDrive - BIENES PROGRAMADOS S.A. DE C.V\\Imágenes\\ATENEA\\ATENEA\\wwwroot\\css\\dashboard.css",
+      "PackagePath": "staticwebassets\\css\\dashboard.css"
+    },
+    {
+      "Id": "C:\\Users\\lzapata\\OneDrive - BIENES PROGRAMADOS S.A. DE C.V\\Imágenes\\ATENEA\\ATENEA\\wwwroot\\css\\font-style1.css",
+      "PackagePath": "staticwebassets\\css\\font-style1.css"
+    },
+    {
+      "Id": "C:\\Users\\lzapata\\OneDrive - BIENES PROGRAMADOS S.A. DE C.V\\Imágenes\\ATENEA\\ATENEA\\wwwroot\\css\\horizontal-menu.css",
+      "PackagePath": "staticwebassets\\css\\horizontal-menu.css"
+    },
+    {
+      "Id": "C:\\Users\\lzapata\\OneDrive - BIENES PROGRAMADOS S.A. DE C.V\\Imágenes\\ATENEA\\ATENEA\\wwwroot\\css\\icons.css",
+      "PackagePath": "staticwebassets\\css\\icons.css"
+    },
+    {
+      "Id": "C:\\Users\\lzapata\\OneDrive - BIENES PROGRAMADOS S.A. DE C.V\\Imágenes\\ATENEA\\ATENEA\\wwwroot\\css\\jquery.growl.css",
+      "PackagePath": "staticwebassets\\css\\jquery.growl.css"
+    },
+    {
+      "Id": "C:\\Users\\lzapata\\OneDrive - BIENES PROGRAMADOS S.A. DE C.V\\Imágenes\\ATENEA\\ATENEA\\wwwroot\\css\\jquery.mCustomScrollbar.css",
+      "PackagePath": "staticwebassets\\css\\jquery.mCustomScrollbar.css"
+    },
+    {
+      "Id": "C:\\Users\\lzapata\\OneDrive - BIENES PROGRAMADOS S.A. DE C.V\\Imágenes\\ATENEA\\ATENEA\\wwwroot\\css\\reporte.css",
+      "PackagePath": "staticwebassets\\css\\reporte.css"
+    },
+    {
+      "Id": "C:\\Users\\lzapata\\OneDrive - BIENES PROGRAMADOS S.A. DE C.V\\Imágenes\\ATENEA\\ATENEA\\wwwroot\\css\\site copy.css",
+      "PackagePath": "staticwebassets\\css\\site copy.css"
+    },
+    {
+      "Id": "C:\\Users\\lzapata\\OneDrive - BIENES PROGRAMADOS S.A. DE C.V\\Imágenes\\ATENEA\\ATENEA\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "C:\\Users\\lzapata\\OneDrive - BIENES PROGRAMADOS S.A. DE C.V\\Imágenes\\ATENEA\\ATENEA\\wwwroot\\css\\validetta.css",
+      "PackagePath": "staticwebassets\\css\\validetta.css"
+    },
+    {
+      "Id": "C:\\Users\\lzapata\\OneDrive - BIENES PROGRAMADOS S.A. DE C.V\\Imágenes\\ATENEA\\ATENEA\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "C:\\Users\\lzapata\\OneDrive - BIENES PROGRAMADOS S.A. DE C.V\\Imágenes\\ATENEA\\ATENEA\\wwwroot\\js\\Home\\Alumnos.js",
+      "PackagePath": "staticwebassets\\js\\Home\\Alumnos.js"
+    },
+    {
+      "Id": "C:\\Users\\lzapata\\OneDrive - BIENES PROGRAMADOS S.A. DE C.V\\Imágenes\\ATENEA\\ATENEA\\wwwroot\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "C:\\Users\\lzapata\\OneDrive - BIENES PROGRAMADOS S.A. DE C.V\\Imágenes\\ATENEA\\ATENEA\\wwwroot\\js\\circle-progress.min.js",
+      "PackagePath": "staticwebassets\\js\\circle-progress.min.js"
+    },
+    {
+      "Id": "C:\\Users\\lzapata\\OneDrive - BIENES PROGRAMADOS S.A. DE C.V\\Imágenes\\ATENEA\\ATENEA\\wwwroot\\js\\custom.js",
+      "PackagePath": "staticwebassets\\js\\custom.js"
+    },
+    {
+      "Id": "C:\\Users\\lzapata\\OneDrive - BIENES PROGRAMADOS S.A. DE C.V\\Imágenes\\ATENEA\\ATENEA\\wwwroot\\js\\d3.v7.min.js",
+      "PackagePath": "staticwebassets\\js\\d3.v7.min.js"
+    },
+    {
+      "Id": "C:\\Users\\lzapata\\OneDrive - BIENES PROGRAMADOS S.A. DE C.V\\Imágenes\\ATENEA\\ATENEA\\wwwroot\\js\\echarts.min.js",
+      "PackagePath": "staticwebassets\\js\\echarts.min.js"
+    },
+    {
+      "Id": "C:\\Users\\lzapata\\OneDrive - BIENES PROGRAMADOS S.A. DE C.V\\Imágenes\\ATENEA\\ATENEA\\wwwroot\\js\\generic.js",
+      "PackagePath": "staticwebassets\\js\\generic.js"
+    },
+    {
+      "Id": "C:\\Users\\lzapata\\OneDrive - BIENES PROGRAMADOS S.A. DE C.V\\Imágenes\\ATENEA\\ATENEA\\wwwroot\\js\\generic2.js",
+      "PackagePath": "staticwebassets\\js\\generic2.js"
+    },
+    {
+      "Id": "C:\\Users\\lzapata\\OneDrive - BIENES PROGRAMADOS S.A. DE C.V\\Imágenes\\ATENEA\\ATENEA\\wwwroot\\js\\generic3.js",
+      "PackagePath": "staticwebassets\\js\\generic3.js"
+    },
+    {
+      "Id": "C:\\Users\\lzapata\\OneDrive - BIENES PROGRAMADOS S.A. DE C.V\\Imágenes\\ATENEA\\ATENEA\\wwwroot\\js\\graf.js",
+      "PackagePath": "staticwebassets\\js\\graf.js"
+    },
+    {
+      "Id": "C:\\Users\\lzapata\\OneDrive - BIENES PROGRAMADOS S.A. DE C.V\\Imágenes\\ATENEA\\ATENEA\\wwwroot\\js\\graficos.js",
+      "PackagePath": "staticwebassets\\js\\graficos.js"
+    },
+    {
+      "Id": "C:\\Users\\lzapata\\OneDrive - BIENES PROGRAMADOS S.A. DE C.V\\Imágenes\\ATENEA\\ATENEA\\wwwroot\\js\\horizontal-menu.js",
+      "PackagePath": "staticwebassets\\js\\horizontal-menu.js"
+    },
+    {
+      "Id": "C:\\Users\\lzapata\\OneDrive - BIENES PROGRAMADOS S.A. DE C.V\\Imágenes\\ATENEA\\ATENEA\\wwwroot\\js\\jquery-3.2.1.min.js",
+      "PackagePath": "staticwebassets\\js\\jquery-3.2.1.min.js"
+    },
+    {
+      "Id": "C:\\Users\\lzapata\\OneDrive - BIENES PROGRAMADOS S.A. DE C.V\\Imágenes\\ATENEA\\ATENEA\\wwwroot\\js\\jquery.growl.js",
+      "PackagePath": "staticwebassets\\js\\jquery.growl.js"
+    },
+    {
+      "Id": "C:\\Users\\lzapata\\OneDrive - BIENES PROGRAMADOS S.A. DE C.V\\Imágenes\\ATENEA\\ATENEA\\wwwroot\\js\\jquery.mCustomScrollbar.concat.min.js",
+      "PackagePath": "staticwebassets\\js\\jquery.mCustomScrollbar.concat.min.js"
+    },
+    {
+      "Id": "C:\\Users\\lzapata\\OneDrive - BIENES PROGRAMADOS S.A. DE C.V\\Imágenes\\ATENEA\\ATENEA\\wwwroot\\js\\jquery.rating-stars.js",
+      "PackagePath": "staticwebassets\\js\\jquery.rating-stars.js"
+    },
+    {
+      "Id": "C:\\Users\\lzapata\\OneDrive - BIENES PROGRAMADOS S.A. DE C.V\\Imágenes\\ATENEA\\ATENEA\\wwwroot\\js\\jquery.sparkline.min.js",
+      "PackagePath": "staticwebassets\\js\\jquery.sparkline.min.js"
+    },
+    {
+      "Id": "C:\\Users\\lzapata\\OneDrive - BIENES PROGRAMADOS S.A. DE C.V\\Imágenes\\ATENEA\\ATENEA\\wwwroot\\js\\jquery.tablesorter.min.js",
+      "PackagePath": "staticwebassets\\js\\jquery.tablesorter.min.js"
+    },
+    {
+      "Id": "C:\\Users\\lzapata\\OneDrive - BIENES PROGRAMADOS S.A. DE C.V\\Imágenes\\ATENEA\\ATENEA\\wwwroot\\js\\permisos.js",
+      "PackagePath": "staticwebassets\\js\\permisos.js"
+    },
+    {
+      "Id": "C:\\Users\\lzapata\\OneDrive - BIENES PROGRAMADOS S.A. DE C.V\\Imágenes\\ATENEA\\ATENEA\\wwwroot\\js\\popper.min.js",
+      "PackagePath": "staticwebassets\\js\\popper.min.js"
+    },
+    {
+      "Id": "C:\\Users\\lzapata\\OneDrive - BIENES PROGRAMADOS S.A. DE C.V\\Imágenes\\ATENEA\\ATENEA\\wwwroot\\js\\selectize.min.js",
+      "PackagePath": "staticwebassets\\js\\selectize.min.js"
+    },
+    {
+      "Id": "C:\\Users\\lzapata\\OneDrive - BIENES PROGRAMADOS S.A. DE C.V\\Imágenes\\ATENEA\\ATENEA\\wwwroot\\js\\site copy.js",
+      "PackagePath": "staticwebassets\\js\\site copy.js"
+    },
+    {
+      "Id": "C:\\Users\\lzapata\\OneDrive - BIENES PROGRAMADOS S.A. DE C.V\\Imágenes\\ATENEA\\ATENEA\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "C:\\Users\\lzapata\\OneDrive - BIENES PROGRAMADOS S.A. DE C.V\\Imágenes\\ATENEA\\ATENEA\\wwwroot\\js\\sticky.js",
+      "PackagePath": "staticwebassets\\js\\sticky.js"
+    },
+    {
+      "Id": "C:\\Users\\lzapata\\OneDrive - BIENES PROGRAMADOS S.A. DE C.V\\Imágenes\\ATENEA\\ATENEA\\wwwroot\\js\\sweet.js",
+      "PackagePath": "staticwebassets\\js\\sweet.js"
+    },
+    {
+      "Id": "C:\\Users\\lzapata\\OneDrive - BIENES PROGRAMADOS S.A. DE C.V\\Imágenes\\ATENEA\\ATENEA\\wwwroot\\js\\validetta.js",
+      "PackagePath": "staticwebassets\\js\\validetta.js"
+    },
+    {
+      "Id": "C:\\Users\\lzapata\\OneDrive - BIENES PROGRAMADOS S.A. DE C.V\\Imágenes\\ATENEA\\ATENEA\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "C:\\Users\\lzapata\\OneDrive - BIENES PROGRAMADOS S.A. DE C.V\\Imágenes\\ATENEA\\ATENEA\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "C:\\Users\\lzapata\\OneDrive - BIENES PROGRAMADOS S.A. DE C.V\\Imágenes\\ATENEA\\ATENEA\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "C:\\Users\\lzapata\\OneDrive - BIENES PROGRAMADOS S.A. DE C.V\\Imágenes\\ATENEA\\ATENEA\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "C:\\Users\\lzapata\\OneDrive - BIENES PROGRAMADOS S.A. DE C.V\\Imágenes\\ATENEA\\ATENEA\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\lzapata\\OneDrive - BIENES PROGRAMADOS S.A. DE C.V\\Imágenes\\ATENEA\\ATENEA\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\lzapata\\OneDrive - BIENES PROGRAMADOS S.A. DE C.V\\Imágenes\\ATENEA\\ATENEA\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\lzapata\\OneDrive - BIENES PROGRAMADOS S.A. DE C.V\\Imágenes\\ATENEA\\ATENEA\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\lzapata\\OneDrive - BIENES PROGRAMADOS S.A. DE C.V\\Imágenes\\ATENEA\\ATENEA\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\lzapata\\OneDrive - BIENES PROGRAMADOS S.A. DE C.V\\Imágenes\\ATENEA\\ATENEA\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "C:\\Users\\lzapata\\OneDrive - BIENES PROGRAMADOS S.A. DE C.V\\Imágenes\\ATENEA\\ATENEA\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "C:\\Users\\lzapata\\OneDrive - BIENES PROGRAMADOS S.A. DE C.V\\Imágenes\\ATENEA\\ATENEA\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "C:\\Users\\lzapata\\OneDrive - BIENES PROGRAMADOS S.A. DE C.V\\Imágenes\\ATENEA\\ATENEA\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\lzapata\\OneDrive - BIENES PROGRAMADOS S.A. DE C.V\\Imágenes\\ATENEA\\ATENEA\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\lzapata\\OneDrive - BIENES PROGRAMADOS S.A. DE C.V\\Imágenes\\ATENEA\\ATENEA\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\lzapata\\OneDrive - BIENES PROGRAMADOS S.A. DE C.V\\Imágenes\\ATENEA\\ATENEA\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\lzapata\\OneDrive - BIENES PROGRAMADOS S.A. DE C.V\\Imágenes\\ATENEA\\ATENEA\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\lzapata\\OneDrive - BIENES PROGRAMADOS S.A. DE C.V\\Imágenes\\ATENEA\\ATENEA\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "C:\\Users\\lzapata\\OneDrive - BIENES PROGRAMADOS S.A. DE C.V\\Imágenes\\ATENEA\\ATENEA\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "C:\\Users\\lzapata\\OneDrive - BIENES PROGRAMADOS S.A. DE C.V\\Imágenes\\ATENEA\\ATENEA\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "C:\\Users\\lzapata\\OneDrive - BIENES PROGRAMADOS S.A. DE C.V\\Imágenes\\ATENEA\\ATENEA\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\lzapata\\OneDrive - BIENES PROGRAMADOS S.A. DE C.V\\Imágenes\\ATENEA\\ATENEA\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\lzapata\\OneDrive - BIENES PROGRAMADOS S.A. DE C.V\\Imágenes\\ATENEA\\ATENEA\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\lzapata\\OneDrive - BIENES PROGRAMADOS S.A. DE C.V\\Imágenes\\ATENEA\\ATENEA\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\lzapata\\OneDrive - BIENES PROGRAMADOS S.A. DE C.V\\Imágenes\\ATENEA\\ATENEA\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\lzapata\\OneDrive - BIENES PROGRAMADOS S.A. DE C.V\\Imágenes\\ATENEA\\ATENEA\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "C:\\Users\\lzapata\\OneDrive - BIENES PROGRAMADOS S.A. DE C.V\\Imágenes\\ATENEA\\ATENEA\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "C:\\Users\\lzapata\\OneDrive - BIENES PROGRAMADOS S.A. DE C.V\\Imágenes\\ATENEA\\ATENEA\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\lzapata\\OneDrive - BIENES PROGRAMADOS S.A. DE C.V\\Imágenes\\ATENEA\\ATENEA\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\lzapata\\OneDrive - BIENES PROGRAMADOS S.A. DE C.V\\Imágenes\\ATENEA\\ATENEA\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\lzapata\\OneDrive - BIENES PROGRAMADOS S.A. DE C.V\\Imágenes\\ATENEA\\ATENEA\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\lzapata\\OneDrive - BIENES PROGRAMADOS S.A. DE C.V\\Imágenes\\ATENEA\\ATENEA\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\lzapata\\OneDrive - BIENES PROGRAMADOS S.A. DE C.V\\Imágenes\\ATENEA\\ATENEA\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\lzapata\\OneDrive - BIENES PROGRAMADOS S.A. DE C.V\\Imágenes\\ATENEA\\ATENEA\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "C:\\Users\\lzapata\\OneDrive - BIENES PROGRAMADOS S.A. DE C.V\\Imágenes\\ATENEA\\ATENEA\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "C:\\Users\\lzapata\\OneDrive - BIENES PROGRAMADOS S.A. DE C.V\\Imágenes\\ATENEA\\ATENEA\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "C:\\Users\\lzapata\\OneDrive - BIENES PROGRAMADOS S.A. DE C.V\\Imágenes\\ATENEA\\ATENEA\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\lzapata\\OneDrive - BIENES PROGRAMADOS S.A. DE C.V\\Imágenes\\ATENEA\\ATENEA\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "C:\\Users\\lzapata\\OneDrive - BIENES PROGRAMADOS S.A. DE C.V\\Imágenes\\ATENEA\\ATENEA\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "C:\\Users\\lzapata\\OneDrive - BIENES PROGRAMADOS S.A. DE C.V\\Imágenes\\ATENEA\\ATENEA\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "C:\\Users\\lzapata\\OneDrive - BIENES PROGRAMADOS S.A. DE C.V\\Imágenes\\ATENEA\\ATENEA\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\lzapata\\OneDrive - BIENES PROGRAMADOS S.A. DE C.V\\Imágenes\\ATENEA\\ATENEA\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "C:\\Users\\lzapata\\OneDrive - BIENES PROGRAMADOS S.A. DE C.V\\Imágenes\\ATENEA\\ATENEA\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "C:\\Users\\lzapata\\OneDrive - BIENES PROGRAMADOS S.A. DE C.V\\Imágenes\\ATENEA\\ATENEA\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "C:\\Users\\lzapata\\OneDrive - BIENES PROGRAMADOS S.A. DE C.V\\Imágenes\\ATENEA\\ATENEA\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\lzapata\\OneDrive - BIENES PROGRAMADOS S.A. DE C.V\\Imágenes\\ATENEA\\ATENEA\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\lzapata\\OneDrive - BIENES PROGRAMADOS S.A. DE C.V\\Imágenes\\ATENEA\\ATENEA\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "C:\\Users\\lzapata\\OneDrive - BIENES PROGRAMADOS S.A. DE C.V\\Imágenes\\ATENEA\\ATENEA\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "C:\\Users\\lzapata\\OneDrive - BIENES PROGRAMADOS S.A. DE C.V\\Imágenes\\ATENEA\\ATENEA\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "C:\\Users\\lzapata\\OneDrive - BIENES PROGRAMADOS S.A. DE C.V\\Imágenes\\ATENEA\\ATENEA\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "C:\\Users\\lzapata\\OneDrive - BIENES PROGRAMADOS S.A. DE C.V\\Imágenes\\ATENEA\\ATENEA\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "C:\\Users\\lzapata\\OneDrive - BIENES PROGRAMADOS S.A. DE C.V\\Imágenes\\ATENEA\\ATENEA\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "C:\\Users\\lzapata\\OneDrive - BIENES PROGRAMADOS S.A. DE C.V\\Imágenes\\ATENEA\\ATENEA\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "C:\\Users\\lzapata\\OneDrive - BIENES PROGRAMADOS S.A. DE C.V\\Imágenes\\ATENEA\\ATENEA\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\lzapata\\OneDrive - BIENES PROGRAMADOS S.A. DE C.V\\Imágenes\\ATENEA\\ATENEA\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "C:\\Users\\lzapata\\OneDrive - BIENES PROGRAMADOS S.A. DE C.V\\Imágenes\\ATENEA\\ATENEA\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "C:\\Users\\lzapata\\OneDrive - BIENES PROGRAMADOS S.A. DE C.V\\Imágenes\\ATENEA\\ATENEA\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "obj\\Release\\net6.0\\staticwebassets\\msbuild.ATENEA.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Release\\net6.0\\staticwebassets\\msbuild.build.ATENEA.props",
+      "PackagePath": "build\\ATENEA.props"
+    },
+    {
+      "Id": "obj\\Release\\net6.0\\staticwebassets\\msbuild.buildMultiTargeting.ATENEA.props",
+      "PackagePath": "buildMultiTargeting\\ATENEA.props"
+    },
+    {
+      "Id": "obj\\Release\\net6.0\\staticwebassets\\msbuild.buildTransitive.ATENEA.props",
+      "PackagePath": "buildTransitive\\ATENEA.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

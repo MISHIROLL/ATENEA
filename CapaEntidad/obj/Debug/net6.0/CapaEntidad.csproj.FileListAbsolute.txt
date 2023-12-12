@@ -1,0 +1,24 @@
+C:\Users\Arturo\Desktop\ProyectoTT\ATENEA\CapaEntidad\bin\Debug\net6.0\CapaEntidad.deps.json
+C:\Users\Arturo\Desktop\ProyectoTT\ATENEA\CapaEntidad\bin\Debug\net6.0\CapaEntidad.dll
+C:\Users\Arturo\Desktop\ProyectoTT\ATENEA\CapaEntidad\bin\Debug\net6.0\CapaEntidad.pdb
+C:\Users\Arturo\Desktop\ProyectoTT\ATENEA\CapaEntidad\obj\Debug\net6.0\CapaEntidad.csproj.AssemblyReference.cache
+C:\Users\Arturo\Desktop\ProyectoTT\ATENEA\CapaEntidad\obj\Debug\net6.0\CapaEntidad.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Arturo\Desktop\ProyectoTT\ATENEA\CapaEntidad\obj\Debug\net6.0\CapaEntidad.AssemblyInfoInputs.cache
+C:\Users\Arturo\Desktop\ProyectoTT\ATENEA\CapaEntidad\obj\Debug\net6.0\CapaEntidad.AssemblyInfo.cs
+C:\Users\Arturo\Desktop\ProyectoTT\ATENEA\CapaEntidad\obj\Debug\net6.0\CapaEntidad.csproj.CoreCompileInputs.cache
+C:\Users\Arturo\Desktop\ProyectoTT\ATENEA\CapaEntidad\obj\Debug\net6.0\CapaEntidad.dll
+C:\Users\Arturo\Desktop\ProyectoTT\ATENEA\CapaEntidad\obj\Debug\net6.0\refint\CapaEntidad.dll
+C:\Users\Arturo\Desktop\ProyectoTT\ATENEA\CapaEntidad\obj\Debug\net6.0\CapaEntidad.pdb
+C:\Users\Arturo\Desktop\ProyectoTT\ATENEA\CapaEntidad\obj\Debug\net6.0\ref\CapaEntidad.dll
+C:\Users\lzapata\OneDrive - BIENES PROGRAMADOS S.A. DE C.V\Imágenes\ATENEA\CapaEntidad\bin\Debug\net6.0\CapaEntidad.deps.json
+C:\Users\lzapata\OneDrive - BIENES PROGRAMADOS S.A. DE C.V\Imágenes\ATENEA\CapaEntidad\bin\Debug\net6.0\CapaEntidad.dll
+C:\Users\lzapata\OneDrive - BIENES PROGRAMADOS S.A. DE C.V\Imágenes\ATENEA\CapaEntidad\bin\Debug\net6.0\CapaEntidad.pdb
+C:\Users\lzapata\OneDrive - BIENES PROGRAMADOS S.A. DE C.V\Imágenes\ATENEA\CapaEntidad\obj\Debug\net6.0\CapaEntidad.csproj.AssemblyReference.cache
+C:\Users\lzapata\OneDrive - BIENES PROGRAMADOS S.A. DE C.V\Imágenes\ATENEA\CapaEntidad\obj\Debug\net6.0\CapaEntidad.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\lzapata\OneDrive - BIENES PROGRAMADOS S.A. DE C.V\Imágenes\ATENEA\CapaEntidad\obj\Debug\net6.0\CapaEntidad.AssemblyInfoInputs.cache
+C:\Users\lzapata\OneDrive - BIENES PROGRAMADOS S.A. DE C.V\Imágenes\ATENEA\CapaEntidad\obj\Debug\net6.0\CapaEntidad.AssemblyInfo.cs
+C:\Users\lzapata\OneDrive - BIENES PROGRAMADOS S.A. DE C.V\Imágenes\ATENEA\CapaEntidad\obj\Debug\net6.0\CapaEntidad.csproj.CoreCompileInputs.cache
+C:\Users\lzapata\OneDrive - BIENES PROGRAMADOS S.A. DE C.V\Imágenes\ATENEA\CapaEntidad\obj\Debug\net6.0\CapaEntidad.dll
+C:\Users\lzapata\OneDrive - BIENES PROGRAMADOS S.A. DE C.V\Imágenes\ATENEA\CapaEntidad\obj\Debug\net6.0\refint\CapaEntidad.dll
+C:\Users\lzapata\OneDrive - BIENES PROGRAMADOS S.A. DE C.V\Imágenes\ATENEA\CapaEntidad\obj\Debug\net6.0\CapaEntidad.pdb
+C:\Users\lzapata\OneDrive - BIENES PROGRAMADOS S.A. DE C.V\Imágenes\ATENEA\CapaEntidad\obj\Debug\net6.0\ref\CapaEntidad.dll

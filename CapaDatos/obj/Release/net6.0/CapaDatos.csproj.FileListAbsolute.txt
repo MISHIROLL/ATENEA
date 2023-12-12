@@ -1,0 +1,15 @@
+C:\Users\lzapata\OneDrive - BIENES PROGRAMADOS S.A. DE C.V\Imágenes\ATENEA\CapaDatos\bin\Release\net6.0\CapaDatos.deps.json
+C:\Users\lzapata\OneDrive - BIENES PROGRAMADOS S.A. DE C.V\Imágenes\ATENEA\CapaDatos\bin\Release\net6.0\CapaDatos.dll
+C:\Users\lzapata\OneDrive - BIENES PROGRAMADOS S.A. DE C.V\Imágenes\ATENEA\CapaDatos\bin\Release\net6.0\CapaDatos.pdb
+C:\Users\lzapata\OneDrive - BIENES PROGRAMADOS S.A. DE C.V\Imágenes\ATENEA\CapaDatos\bin\Release\net6.0\CapaEntidad.dll
+C:\Users\lzapata\OneDrive - BIENES PROGRAMADOS S.A. DE C.V\Imágenes\ATENEA\CapaDatos\bin\Release\net6.0\CapaEntidad.pdb
+C:\Users\lzapata\OneDrive - BIENES PROGRAMADOS S.A. DE C.V\Imágenes\ATENEA\CapaDatos\obj\Release\net6.0\CapaDatos.csproj.AssemblyReference.cache
+C:\Users\lzapata\OneDrive - BIENES PROGRAMADOS S.A. DE C.V\Imágenes\ATENEA\CapaDatos\obj\Release\net6.0\CapaDatos.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\lzapata\OneDrive - BIENES PROGRAMADOS S.A. DE C.V\Imágenes\ATENEA\CapaDatos\obj\Release\net6.0\CapaDatos.AssemblyInfoInputs.cache
+C:\Users\lzapata\OneDrive - BIENES PROGRAMADOS S.A. DE C.V\Imágenes\ATENEA\CapaDatos\obj\Release\net6.0\CapaDatos.AssemblyInfo.cs
+C:\Users\lzapata\OneDrive - BIENES PROGRAMADOS S.A. DE C.V\Imágenes\ATENEA\CapaDatos\obj\Release\net6.0\CapaDatos.csproj.CoreCompileInputs.cache
+C:\Users\lzapata\OneDrive - BIENES PROGRAMADOS S.A. DE C.V\Imágenes\ATENEA\CapaDatos\obj\Release\net6.0\CapaDatos.csproj.CopyComplete
+C:\Users\lzapata\OneDrive - BIENES PROGRAMADOS S.A. DE C.V\Imágenes\ATENEA\CapaDatos\obj\Release\net6.0\CapaDatos.dll
+C:\Users\lzapata\OneDrive - BIENES PROGRAMADOS S.A. DE C.V\Imágenes\ATENEA\CapaDatos\obj\Release\net6.0\refint\CapaDatos.dll
+C:\Users\lzapata\OneDrive - BIENES PROGRAMADOS S.A. DE C.V\Imágenes\ATENEA\CapaDatos\obj\Release\net6.0\CapaDatos.pdb
+C:\Users\lzapata\OneDrive - BIENES PROGRAMADOS S.A. DE C.V\Imágenes\ATENEA\CapaDatos\obj\Release\net6.0\ref\CapaDatos.dll
