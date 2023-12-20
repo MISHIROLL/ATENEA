@@ -10,7 +10,17 @@ namespace CapaNegocio
             CombosDAL obj = new CombosDAL();
             return obj.ComboCiclo();
         }
-    
+        public List<ComboCLS> ComboGrupo()
+        {
+            CombosDAL obj = new CombosDAL();
+            return obj.ComboGrupo();
+        }
+        public List<ComboCLS> ComboAlumnos(string ciclo,string grupo)
+        {
+            CombosDAL obj = new CombosDAL();
+            return obj.ComboAlumnos(ciclo,grupo);
+        }
+        
         
     }
 }

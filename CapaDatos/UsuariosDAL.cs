@@ -13,7 +13,7 @@ namespace CapaDatos
         public List<UsuariosCLS> listarUsuarios()
         {
 
-            List<UsuariosCLS>? lista = null;
+            List<UsuariosCLS> lista = null;
 
             using (SqlConnection cn = new SqlConnection(cadena))
             {

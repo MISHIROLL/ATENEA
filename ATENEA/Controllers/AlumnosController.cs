@@ -8,9 +8,9 @@ namespace ATENEA.Controllers
 {
     public class AlumnosController : Controller
     {
-        private readonly ILogger<HomeController> _logger;
+        private readonly ILogger<AlumnosController> _logger;
 
-        public AlumnosController(ILogger<HomeController> logger)
+        public AlumnosController(ILogger<AlumnosController> logger)
         {
             _logger = logger;
         }
@@ -30,7 +30,11 @@ namespace ATENEA.Controllers
             }
         }
 
-
+        public List<ComboCLS> ComboCiclo()
+        {
+            ComboBL obj = new ComboBL();
+            return obj.ComboCiclo();
+        }
 
  
     }

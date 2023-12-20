@@ -36,7 +36,7 @@
                 <div class="navbar-collapse collapse d-sm-inline-flex justify-content-between">
                     <ul class="navbar-nav flex-grow-1">
                         <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Alumnos">Alumnos</a>
+                            <a class="nav-link text-dark" asp-area="" asp-controller="Alumnos" asp-action="Alumnos">Alumnos</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Index">Home</a>
@@ -49,15 +49,13 @@
             </div>
         </nav>
     </header>
+	<input type="hidden" id="hdfOculto" value='@Url.Content("~")' />
     <div class="container">
         <main role="main" class="pb-3">
             @RenderBody()
         </main>
     </div>
 
-    <script src="~/lib/jquery/dist/css/jquery.min.js"></script>
-    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
-    <script src="~/js/site.js" asp-append-version="true"></script>
     <!-- JQuery js-->
 	<script src="~/js/generic3.js"></script>
 	<script src="~/js/permisos.js"></script>

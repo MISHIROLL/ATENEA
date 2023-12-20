@@ -1,22 +1,16 @@
-using System;
-using System.Collections.Generic;
-using System.Diagnostics;
-using System.Linq;
-using System.Threading.Tasks;
-using Microsoft.AspNetCore.Authorization;
-using Microsoft.AspNetCore.Mvc;
-using Microsoft.Extensions.Logging;
+using ATENEA.Models;
 using CapaEntidad;
 using CapaNegocio;
+using Microsoft.AspNetCore.Mvc;
+using System.Diagnostics;
 
-namespace WebApp.Controllers
+namespace ATENEA.Controllers
 {
-    [Authorize]
-    public class ComboController : Controller
+    public class CombosController : Controller
     {
-        private readonly ILogger<ComboController> _logger;
+        private readonly ILogger<CombosController> _logger;
 
-        public ComboController(ILogger<ComboController> logger)
+        public CombosController(ILogger<CombosController> logger)
         {
             _logger = logger;
         }
@@ -26,6 +20,17 @@ namespace WebApp.Controllers
             ComboBL obj = new ComboBL();
             return obj.ComboCiclo();
         }
+        public List<ComboCLS> ComboGrupo()
+        {
+            ComboBL obj = new ComboBL();
+            return obj.ComboGrupo();
+        }
+        public List<ComboCLS> ComboAlumnos(string ciclo, string grupo)
+        {
+            ComboBL obj = new ComboBL();
+            return obj.ComboAlumnos(ciclo,grupo);
+        }
+
 
     }
 }
