@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "Gal9MKrbuUOZBV4Qim8frbPoKH54Bq1jMEv/YnyLvBE=",
+  "Hash": "0aBXGbabwR+6agafcQx/HpMgeuxqwwWSvtL2Yqnx+FM=",
   "Source": "ATENEA",
   "BasePath": "_content/ATENEA",
   "Mode": "Default",
@@ -17576,6 +17576,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\js\\popper.min.js"
+    },
+    {
+      "Identity": "C:\\Users\\lzapata\\OneDrive - BIENES PROGRAMADOS S.A. DE C.V\\Imágenes\\ATENEA\\ATENEA\\wwwroot\\js\\Profesores\\Profesores.js",
+      "SourceId": "ATENEA",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\lzapata\\OneDrive - BIENES PROGRAMADOS S.A. DE C.V\\Imágenes\\ATENEA\\ATENEA\\wwwroot\\",
+      "BasePath": "_content/ATENEA",
+      "RelativePath": "js/Profesores/Profesores.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\Profesores\\Profesores.js"
     },
     {
       "Identity": "C:\\Users\\lzapata\\OneDrive - BIENES PROGRAMADOS S.A. DE C.V\\Imágenes\\ATENEA\\ATENEA\\wwwroot\\js\\selectize.min.js",

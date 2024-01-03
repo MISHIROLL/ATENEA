@@ -30,12 +30,26 @@ namespace ATENEA.Controllers
             }
         }
 
-        public List<ComboCLS> ComboCiclo()
+        public string insertarAlumnos(string nombre,string apellidoPa,string apellidoMa,string boleta)
         {
-            ComboBL obj = new ComboBL();
-            return obj.ComboCiclo();
+            AlumnosBL obj = new AlumnosBL();
+            return obj.insertarAlumnos(nombre,apellidoPa,apellidoMa,boleta);
         }
-
+        public List<AlumnosCLS> listarAlumnos(int idAlumno)
+        {
+            AlumnosBL obj = new AlumnosBL();
+            return obj.listarAlumnos(idAlumno);
+        }
+        public string actualizarAlumno(string nombre,string apellidoPa,string apellidoMa,string boleta,int idAlumno)
+        {
+            AlumnosBL obj = new AlumnosBL();
+            return obj.actualizarAlumno(nombre,apellidoPa,apellidoMa,boleta,idAlumno);
+        }
+        public string eliminarAlumno(int idAlumno)
+        {
+            AlumnosBL obj = new AlumnosBL();
+            return obj.eliminarAlumno(idAlumno);
+        }
  
     }
 }

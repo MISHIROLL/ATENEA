@@ -2,36 +2,9 @@
     ViewData["Title"] = "Alumnos";
 }
 <style>
-    .cuadroRegistrarAlumno {
+    .cuadroRegistrarProfesor {
         display: none;
     }
-
-    #horario-container {
-        margin-top: 20px;
-    }
-
-    table {
-        width: 100%;
-        border-collapse: collapse;
-    }
-
-    table,
-    th,
-    td {
-        border: 1px solid black;
-    }
-
-    th,
-    td {
-        padding: 5px;
-        text-align: center;
-    }
-
-    th {
-        background-color: #f2f2f2;
-    }
-    .selected {
-    background-color: #add8e6; /* o cualquier otro color que prefieras */
 }
 </style>
 <div class="container ">
@@ -40,24 +13,18 @@
             <div class="card  cardCredito">
                 <div class="card-body">
                     <div class="col-12">
-                        <h2 class="card-title titCredito">Gestionar alumnos</h2>
+                        <h2 class="card-title titCredito">Gestionar profesores</h2>
                         <div class="row">
                             <div class="col-3">
                                 <div class="col-sm-12 ">
-                                    <select class="form-control select2 mt-1  selectCredito" id="cmbCiclo"
-                                        name="cmbCiclo" onchange="filtrarAlumnos()"></select>
-                                </div>
-                            </div>
-                            <div class="col-3">
-                                <div class="col-sm-12 ">
-                                    <select class="form-control select2 mt-1  selectCredito" id="cmbGrupo"
-                                        name="cmbGrupo" onchange="filtrarAlumnos()"></select>
+                                    <select class="form-control select2 mt-1  selectCredito" id="cmbMateria"
+                                        name="cmbMateria" onchange="filtrarProfesores()"></select>
                                 </div>
                             </div>
                             <div class="col-6">
                                 <div class="col-sm-12 ">
-                                    <select class="form-control select2 mt-1  selectCredito" id="cmbAlumnos"
-                                        name="cmbAlumnos" onchange="editarAlumno(event)" style="display: none;"></select>
+                                    <select class="form-control select2 mt-1  selectCredito" id="cmbProfesores"
+                                        name="cmbProfesores" onchange="editarProfesor(event)" style="display: none;"></select>
                                 </div>
                             </div>
                         </div>
@@ -65,55 +32,16 @@
                         <div class="row justify-content-center">
                             <div class="col-3 m-4">
                                 <button type="button" class="btn btn-success btn-lg"
-                                    onclick="habilitarDivFlex('cuadroAlumno')">Registrar Alumno</button>
+                                    onclick="habilitarDivFlex('cuadroAgregarProfesor')">Registrar Profesor</button>
                             </div>
                         </div>
-                        @* Registrar Alumnos*@
-                        <div class="row justify-content-center cuadroRegistrarAlumno" id="cuadroAlumno">
+                        @* Modificar profesor *@
+                        <div class="row justify-content-center cuadroRegistrarProfesor" id="cuadroProfesorModificar">
                             <div class="col-8">
                                 <div class="card">
                                     <div class="card-body">
-                                        <h5 class="card-title text-center">Registrar Alumno</h5>
-                                        <form method="post" id="formRegistroAlumno">
-                                            <div class="row">
-                                                <div class="mb-3 col-6">
-                                                    <label for="nombre" class="form-label">Nombre(s)</label>
-                                                    <input type="text" class="form-control" name="nombreMod"
-                                                        placeholder="Nombre(s)">
-                                                </div>
-                                                <div class="mb-3 col-6">
-                                                    <label for="apellidos" class="form-label">Apellido Paterno</label>
-                                                    <input type="text" class="form-control" name="apellidoPaterno"
-                                                        placeholder="Apellido Paterno">
-                                                </div>
-                                                <div class="mb-3 col-6">
-                                                    <label for="apellidos" class="form-label">Apellido Materno</label>
-                                                    <input type="text" class="form-control" name="apellidoMaterno"
-                                                        placeholder="Apellido Materno">
-                                                </div>
-                                                <div class="mb-3 col-6">
-                                                    <label for="numero-boleta" class="form-label">Número de
-                                                        boleta</label>
-                                                    <input type="text" class="form-control" name="numero-boleta"
-                                                        placeholder="Número de boleta">
-                                                </div>
-                                                <div class="text-center col-12">
-                                                    <button type="button" class="btn btn-danger" onclick="deshabilitarDivFlex('cuadroAlumno')">Cancelar</button>
-                                                    <button type="button" class="btn btn-success" onclick="enviarFormularioRegistroAlumnos()">Registrar</button>
-                                                </div>
-                                            </div>
-                                        </form>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        @* Modificar alumno *@
-                        <div class="row justify-content-center cuadroRegistrarAlumno" id="cuadroAlumnoModificar">
-                            <div class="col-8">
-                                <div class="card">
-                                    <div class="card-body">
-                                        <h5 class="card-title text-center">Modificar alumno</h5>
-                                        <form method="post" id="formModificarAlumno">
+                                        <h5 class="card-title text-center">Modificar Profesor</h5>
+                                        <form method="post" id="formModificarProfesor">
                                             <div class="row">
                                                 <div class="mb-3 col-6">
                                                     <label for="nombre" class="form-label">Nombre(s)</label>
@@ -132,9 +60,9 @@
                                                 </div>
                                                 <div class="mb-3 col-6">
                                                     <label for="numero-boleta" class="form-label">Número de
-                                                        boleta</label>
-                                                    <input type="text" class="form-control" name="numero-boletaMod"
-                                                        placeholder="Número de boleta">
+                                                        trabajador</label>
+                                                    <input type="text" class="form-control" name="numero-trabajadorMod"
+                                                        placeholder="Número de trabajador">
                                                 </div>
                                                 <div class="text-center col-12">
                                                     <button type="button" class="btn btn-danger" id="abrirModalEliminar" data-toggle="modal"
@@ -149,24 +77,24 @@
                                 </div>
                             </div>
                         </div>
-                        @* Modal para modificar alumno *@
+                        @* Modal para modificar profesor *@
                         <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog"
                             aria-labelledby="exampleModalLabel" aria-hidden="true">
                             <div class="modal-dialog" role="document">
                                 <div class="modal-content">
                                     <div class="modal-header">
-                                        <h5 class="modal-title" id="exampleModalLabel">Modificar Alumno</h5>
+                                        <h5 class="modal-title" id="exampleModalLabel">Modificar Profesor</h5>
                                         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                                             <span aria-hidden="true">Cerrar Ventana</span>
                                         </button>
                                     </div>
                                     <div class="modal-body">
-                                        <p>Para confirmar la modificación del alumno de click en Aceptar.</p>
+                                        <p>Para confirmar la modificación del profesor de click en Aceptar.</p>
                                     </div>
                                     <div class="modal-footer">
                                         <button type="button" class="btn btn-danger"
                                             data-dismiss="modal">Cancelar</button>
-                                        <button type="button" onclick="modificarAlumno()"
+                                        <button type="button" onclick="modificarProfesor()"
                                             class="btn btn-success">Aceptar</button>
                                     </div>
                                 </div>
@@ -178,24 +106,73 @@
                             <div class="modal-dialog" role="document">
                                 <div class="modal-content">
                                     <div class="modal-header">
-                                        <h5 class="modal-title" id="exampleModalLabel">Eliminar Alumno</h5>
+                                        <h5 class="modal-title" id="exampleModalLabel">Eliminar Profesor</h5>
                                         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                                             <span aria-hidden="true">Cerrar Ventana</span>
                                         </button>
                                     </div>
                                     <div class="modal-body">
-                                        <p>Para confirmar la eliminación del alumno de click en Aceptar.</p>
+                                        <p>Para confirmar la eliminación del profesor de click en Aceptar.</p>
                                     </div>
                                     <div class="modal-footer">
                                         <button type="button" class="btn btn-danger"
                                             data-dismiss="modal">Cancelar</button>
-                                        <button type="button" onclick="eliminarAlumno()"
+                                        <button type="button" onclick="eliminarProfesor()"
                                             class="btn btn-success">Aceptar</button>
                                     </div>
                                 </div>
                             </div>
                         </div>
-                        
+                        @* Gestionar alumnos*@
+                        <div class="row justify-content-center cuadroRegistrarProfesor" id="cuadroAgregarProfesor">
+                            <div class="col-8">
+                                <div class="card">
+                                    <div class="card-body">
+                                        <h5 class="card-title text-center">Registrar Profesor</h5>
+                                        <form method="post" id="formRegistrarProfesor">
+                                            <div class="row">
+                                                <div class="mb-3 col-6">
+                                                    <label for="nombre" class="form-label">Nombre(s)</label>
+                                                    <input type="text" class="form-control" name="nombre"
+                                                        placeholder="Nombre(s)">
+                                                </div>
+                                                <div class="mb-3 col-6">
+                                                    <label for="apellidos" class="form-label">Apellido Paterno</label>
+                                                    <input type="text" class="form-control" name="apellidoPaterno"
+                                                        placeholder="Apellido Paterno">
+                                                </div>
+                                                <div class="mb-3 col-6">
+                                                    <label for="apellidos" class="form-label">Apellido Materno</label>
+                                                    <input type="text" class="form-control" name="apellidoMaterno"
+                                                        placeholder="Apellido Materno">
+                                                </div>
+                                                <div class="mb-3 col-6">
+                                                    <label for="numero-boleta" class="form-label">Número de
+                                                        trabajador</label>
+                                                    <input type="text" class="form-control" name="numero-trabajador"
+                                                        placeholder="Número de trabajador">
+                                                </div>
+                                                <div class="mb-3 col-6">
+                                                    <label for="selectMateria">Elija una materia</label>
+                                                    <select id="selectMateria" class="form-control select2 mt-1 " name="nombreMateria">
+                                                        <option value="1">Español</option>
+                                                        <option value="2">Matemáticas</option>
+                                                        <option value="3">Historia</option>
+                                                        <option value="4">Inglés</option>
+                                                        <option value="5">Geografía</option>
+                                                    </select>
+                                                </div>
+                                                <div class="text-center col-12">
+                                                    <button type="button" class="btn btn-danger" onclick="deshabilitarDivFlex('cuadroAgregarProfesor')">Cancelar</button>
+                                                    <button type="button" class="btn btn-success" onclick="enviarFormularioRegistroProfesor()" >Registrar</button>
+                                                </div>
+
+                                            </div>
+                                        </form>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
 
 
                     </div>
@@ -210,6 +187,6 @@
     <script src="~/js/echarts.min.js"></script>
     <script src="~/js/sweet.js"></script>
     <script src="~/js/generic3.js"></script>
-    <script src="~/js/Alumnos/Alumnos.js"></script>
+    <script src="~/js/Profesores/Profesores.js"></script>
    
 }

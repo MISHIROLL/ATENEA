@@ -25,10 +25,20 @@ namespace ATENEA.Controllers
             ComboBL obj = new ComboBL();
             return obj.ComboGrupo();
         }
-        public List<ComboCLS> ComboAlumnos(string ciclo, string grupo)
+        public List<ComboCLS> ComboAlumnos(int ciclo, int grupo)
         {
             ComboBL obj = new ComboBL();
             return obj.ComboAlumnos(ciclo,grupo);
+        }
+        public List<ComboCLS> ComboMaterias()
+        {
+            ComboBL obj = new ComboBL();
+            return obj.ComboMaterias();
+        }
+        public List<ComboCLS> ComboProfesores(int idMateria)
+        {
+            ComboBL obj = new ComboBL();
+            return obj.ComboProfesores(idMateria);
         }
 
 
