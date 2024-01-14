@@ -1204,3 +1204,10 @@ function format(data) {
   data = data.toLocaleString("es-MX");
   return data;
 }
+
+function bloquearSelect(id){
+  document.getElementById(id).disable = true
+}
+function desbloquearSelect(id){
+  document.getElementById(id).disable = false
+}

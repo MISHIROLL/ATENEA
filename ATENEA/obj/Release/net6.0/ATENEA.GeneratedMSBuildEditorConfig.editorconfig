@@ -16,8 +16,8 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = C:\Users\lzapata\OneDrive - BIENES PROGRAMADOS S.A. DE C.V\Imágenes\ATENEA\ATENEA
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/lzapata/OneDrive - BIENES PROGRAMADOS S.A. DE C.V/Imágenes/ATENEA/ATENEA/Views/Home/Alumnos.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxBbHVtbm9zLmNzaHRtbA==
+[C:/Users/lzapata/OneDrive - BIENES PROGRAMADOS S.A. DE C.V/Imágenes/ATENEA/ATENEA/Views/Alumnos/Alumnos.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWx1bW5vc1xBbHVtbm9zLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/lzapata/OneDrive - BIENES PROGRAMADOS S.A. DE C.V/Imágenes/ATENEA/ATENEA/Views/Home/Index.cshtml]
@@ -28,8 +28,16 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/lzapata/OneDrive - BIENES PROGRAMADOS S.A. DE C.V/Imágenes/ATENEA/ATENEA/Views/Horarios/Horarios.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9yYXJpb3NcSG9yYXJpb3MuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/lzapata/OneDrive - BIENES PROGRAMADOS S.A. DE C.V/Imágenes/ATENEA/ATENEA/Views/Permisos/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGVybWlzb3NcRXJyb3IuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/lzapata/OneDrive - BIENES PROGRAMADOS S.A. DE C.V/Imágenes/ATENEA/ATENEA/Views/Profesores/Profesores.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZmVzb3Jlc1xQcm9mZXNvcmVzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/lzapata/OneDrive - BIENES PROGRAMADOS S.A. DE C.V/Imágenes/ATENEA/ATENEA/Views/Shared/Error.cshtml]

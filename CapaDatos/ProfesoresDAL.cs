@@ -10,7 +10,7 @@ namespace CapaDatos
 {
     public class ProfesoresDAL : CadenaDAL
     {
-        public string insertarProfesores(string nombre,string apellidoPa,string apellidoMa,string numeroTrabajador,int idMateria)
+        public string insertarProfesores(string nombre,string apellidoPa,string apellidoMa,string numeroTrabajador,int? idMateria)
         {
             using (SqlConnection cn = new SqlConnection(cadena))
             {
@@ -96,7 +96,7 @@ namespace CapaDatos
                 }
             }
         }
-        public List<ProfesoresCLS> listarProfesores(int idProfesor)
+        public List<ProfesoresCLS> listarProfesores(int? idProfesor)
         {
             List<ProfesoresCLS> lista = null;
 
@@ -108,7 +108,7 @@ namespace CapaDatos
                     using (SqlCommand cmd = new SqlCommand("consultarProfesor", cn))
                     {
                         cmd.CommandType = CommandType.StoredProcedure;
-                        cmd.Parameters.AddWithValue("@idProfesor",idProfesor==null?1:idProfesor);
+                        cmd.Parameters.AddWithValue("@idProfesor",idProfesor==null?"":idProfesor);
                         SqlDataReader drd = cmd.ExecuteReader();
                         if (drd != null)
                         {

@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;600;700;800&display=swap');
+
+body {
+	font-family: 'Poppins', sans-serif;
+}
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
+	font-family: 'Poppins', sans-serif;
+	font-weight:600;
+}
+.popover {
+	font-family: 'Poppins', sans-serif;
+}
+.card-title {
+	font-family: 'Poppins', sans-serif;
+}
+.horizontalMenu>.horizontalMenu-list>li>a{
+	padding: 0.6rem 1.21em 0.6rem;
+}

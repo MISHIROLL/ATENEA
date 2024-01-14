@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "0aBXGbabwR+6agafcQx/HpMgeuxqwwWSvtL2Yqnx+FM=",
+  "Hash": "9JZAyKQ1zD0H3XjzAJ+r+mkOkb+wC3Rsj1N/YvIQhtQ=",
   "Source": "ATENEA",
   "BasePath": "_content/ATENEA",
   "Mode": "Default",
@@ -17423,6 +17423,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\js\\graficos.js"
+    },
+    {
+      "Identity": "C:\\Users\\lzapata\\OneDrive - BIENES PROGRAMADOS S.A. DE C.V\\Imágenes\\ATENEA\\ATENEA\\wwwroot\\js\\Horarios\\Horarios.js",
+      "SourceId": "ATENEA",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\lzapata\\OneDrive - BIENES PROGRAMADOS S.A. DE C.V\\Imágenes\\ATENEA\\ATENEA\\wwwroot\\",
+      "BasePath": "_content/ATENEA",
+      "RelativePath": "js/Horarios/Horarios.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\Horarios\\Horarios.js"
     },
     {
       "Identity": "C:\\Users\\lzapata\\OneDrive - BIENES PROGRAMADOS S.A. DE C.V\\Imágenes\\ATENEA\\ATENEA\\wwwroot\\js\\horizontal-menu.js",

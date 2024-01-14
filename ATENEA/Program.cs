@@ -21,7 +21,7 @@ builder.Services.Configure<CookiePolicyOptions>(options =>
 {
     options.MinimumSameSitePolicy = SameSiteMode.None;
     options.HttpOnly = Microsoft.AspNetCore.CookiePolicy.HttpOnlyPolicy.Always;
-    options.Secure = CookieSecurePolicy.Always; // Asegura que las cookies se envíen solo a través de HTTPS
+    options.Secure = CookieSecurePolicy.Always;
 });
 
 

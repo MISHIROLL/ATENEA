@@ -97,7 +97,95 @@ namespace CapaDatos
 
             return lista;
         }
-        public List<ComboCLS> ComboAlumnos(int ciclo,int grupo)
+        public List<ComboCLS> ComboGrupo2()
+        {
+            List<ComboCLS> lista = null;
+
+            using(SqlConnection cn = new SqlConnection(cadena))
+            {
+                try
+                {
+                    cn.Open();
+                    using(SqlCommand cmd = new SqlCommand("select CAST(idGrupo AS VARCHAR) IdCombo, grupo as TxtCombo from Grupo WHERE NOT EXISTS (SELECT 1 FROM horario WHERE horario.idGrupo = Grupo.idGrupo)",cn))
+                    {
+                        cmd.CommandType = CommandType.Text;
+                        SqlDataReader drd = cmd.ExecuteReader(CommandBehavior.SingleResult);
+                        if(drd != null)
+                        {
+                            ComboCLS oComboCLS;
+                            lista = new List<ComboCLS>();
+
+                            int posId = drd.GetOrdinal("IdCombo");
+                            int posTxtCombo = drd.GetOrdinal("TxtCombo");
+
+                            while(drd.Read())
+                            {
+                                oComboCLS = new ComboCLS();
+                                oComboCLS.IdCombo = drd.IsDBNull(posId) ? "" : drd.GetString(posId);
+                                oComboCLS.TxtCombo = drd.IsDBNull(posTxtCombo) ? "" : drd.GetString(posTxtCombo);
+                                lista.Add(oComboCLS);
+                            }
+                            cn.Close();
+                        }
+                    }
+                }
+                catch (System.Exception e)
+                {
+                    Console.BackgroundColor = ConsoleColor.DarkBlue;
+                    Console.WriteLine(e);
+                    Console.ResetColor();
+                    lista = null;
+                    cn.Close();
+                }
+            }
+
+            return lista;
+        }
+        public List<ComboCLS> ComboSalon()
+        {
+            List<ComboCLS> lista = null;
+
+            using(SqlConnection cn = new SqlConnection(cadena))
+            {
+                try
+                {
+                    cn.Open();
+                    using(SqlCommand cmd = new SqlCommand("select CAST(idSalon AS VARCHAR) IdCombo, CAST(numSalon AS VARCHAR) TxtCombo from Salon WHERE NOT EXISTS (SELECT 1 FROM horario WHERE horario.idSalon = salon.idSalon)",cn))
+                    {
+                        cmd.CommandType = CommandType.Text;
+                        SqlDataReader drd = cmd.ExecuteReader(CommandBehavior.SingleResult);
+                        if(drd != null)
+                        {
+                            ComboCLS oComboCLS;
+                            lista = new List<ComboCLS>();
+
+                            int posId = drd.GetOrdinal("IdCombo");
+                            int posTxtCombo = drd.GetOrdinal("TxtCombo");
+
+                            while(drd.Read())
+                            {
+                                oComboCLS = new ComboCLS();
+                                oComboCLS.IdCombo = drd.IsDBNull(posId) ? "" : drd.GetString(posId);
+                                oComboCLS.TxtCombo = drd.IsDBNull(posTxtCombo) ? "" : drd.GetString(posTxtCombo);
+                                lista.Add(oComboCLS);
+                            }
+                            cn.Close();
+                        }
+                    }
+                }
+                catch (System.Exception e)
+                {
+                    Console.BackgroundColor = ConsoleColor.DarkBlue;
+                    Console.WriteLine(e);
+                    Console.ResetColor();
+                    lista = null;
+                    cn.Close();
+                }
+            }
+
+            return lista;
+        }
+        public List<ComboCLS> ComboAlumnos(int? ciclo,int? grupo)
         {
             List<ComboCLS> lista = null;
 
@@ -143,7 +231,7 @@ namespace CapaDatos
 
             return lista;
         }
-        public List<ComboCLS> ComboProfesores(int idMateria)
+        public List<ComboCLS> ComboProfesores(int? idMateria)
         {
             List<ComboCLS> lista = null;
 
@@ -229,10 +317,51 @@ namespace CapaDatos
                     cn.Close();
                 }
             }
-
             return lista;
         }
+        public List<ComboCLS> ComboHorarios()
+        {
+            List<ComboCLS> lista = null;
 
+            using(SqlConnection cn = new SqlConnection(cadena))
+            {
+                try
+                {
+                    cn.Open();
+                    using(SqlCommand cmd = new SqlCommand("select CAST(nombreHorario AS VARCHAR) IdCombo, nombreHorario as TxtCombo from horario group by nombreHorario",cn))
+                    {
+                        cmd.CommandType = CommandType.Text;
+                        SqlDataReader drd = cmd.ExecuteReader(CommandBehavior.SingleResult);
+                        if(drd != null)
+                        {
+                            ComboCLS oComboCLS;
+                            lista = new List<ComboCLS>();
+
+                            int posId = drd.GetOrdinal("IdCombo");
+                            int posTxtCombo = drd.GetOrdinal("TxtCombo");
+
+                            while(drd.Read())
+                            {
+                                oComboCLS = new ComboCLS();
+                                oComboCLS.IdCombo = drd.IsDBNull(posId) ? "" : drd.GetString(posId);
+                                oComboCLS.TxtCombo = drd.IsDBNull(posTxtCombo) ? "" : drd.GetString(posTxtCombo);
+                                lista.Add(oComboCLS);
+                            }
+                            cn.Close();
+                        }
+                    }
+                }
+                catch (System.Exception e)
+                {
+                    Console.BackgroundColor = ConsoleColor.DarkBlue;
+                    Console.WriteLine(e);
+                    Console.ResetColor();
+                    lista = null;
+                    cn.Close();
+                }
+            }
+            return lista;
+        }
   
     }
 

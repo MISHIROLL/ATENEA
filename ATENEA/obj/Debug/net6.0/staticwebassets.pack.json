@@ -4053,6 +4053,10 @@
       "PackagePath": "staticwebassets\\js\\Alumnos\\Alumnos.js"
     },
     {
+      "Id": "C:\\Users\\lzapata\\OneDrive - BIENES PROGRAMADOS S.A. DE C.V\\Imágenes\\ATENEA\\ATENEA\\wwwroot\\js\\Horarios\\Horarios.js",
+      "PackagePath": "staticwebassets\\js\\Horarios\\Horarios.js"
+    },
+    {
       "Id": "C:\\Users\\lzapata\\OneDrive - BIENES PROGRAMADOS S.A. DE C.V\\Imágenes\\ATENEA\\ATENEA\\wwwroot\\js\\Profesores\\Profesores.js",
       "PackagePath": "staticwebassets\\js\\Profesores\\Profesores.js"
     },

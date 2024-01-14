@@ -39,7 +39,7 @@ namespace CapaDatos
                 }
             }
         }
-        public string actualizarAlumno(string nombre,string apellidoPa,string apellidoMa,string boleta, int idAlumno)
+        public string actualizarAlumno(string nombre,string apellidoPa,string apellidoMa,string boleta, int? idAlumno)
         {
             using (SqlConnection cn = new SqlConnection(cadena))
             {
@@ -69,7 +69,7 @@ namespace CapaDatos
                 }
             }
         }
-        public string eliminarAlumno(int idAlumno)
+        public string eliminarAlumno(int? idAlumno)
         {
             using (SqlConnection cn = new SqlConnection(cadena))
             {
@@ -95,7 +95,7 @@ namespace CapaDatos
                 }
             }
         }
-        public List<AlumnosCLS> listarAlumnos(int idAlumno)
+        public List<AlumnosCLS> listarAlumnos(int? idAlumno)
         {
             List<AlumnosCLS> lista = null;
 
