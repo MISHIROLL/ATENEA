@@ -126,7 +126,7 @@ body {
 	line-height: 1.5;
 	color: #29273c;
 	text-align: left;
-	background-color: #f7f5fb;
+	background-image: url('../../../img/fondo.jpg');
 }
 [tabindex="-1"]:focus {
 	outline: 0 !important;

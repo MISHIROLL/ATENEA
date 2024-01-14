@@ -10,7 +10,7 @@ namespace CapaDatos
 {
     public class AlumnosDAL : CadenaDAL
     {
-        public string insertarAlumnos(string nombre,string apellidoPa,string apellidoMa,string boleta)
+        public string insertarAlumnos(string nombre,string apellidoPa,string apellidoMa,string boleta,string correo)
         {
             using (SqlConnection cn = new SqlConnection(cadena))
             {
@@ -24,6 +24,7 @@ namespace CapaDatos
                         cmd.Parameters.AddWithValue("@apellidoPa",apellidoPa == null ? "" : apellidoPa);
                         cmd.Parameters.AddWithValue("@apellidoMa",apellidoMa == null ? "" : apellidoMa);
                         cmd.Parameters.AddWithValue("@boleta",boleta == null ? "" : boleta);
+                        cmd.Parameters.AddWithValue("@correo",correo == null ? "" : correo);
                         cmd.ExecuteNonQuery();
                     }
                     cn.Close();
@@ -39,7 +40,7 @@ namespace CapaDatos
                 }
             }
         }
-        public string actualizarAlumno(string nombre,string apellidoPa,string apellidoMa,string boleta, int? idAlumno)
+        public string actualizarAlumno(string nombre,string apellidoPa,string apellidoMa,string boleta, string correo,int? idAlumno)
         {
             using (SqlConnection cn = new SqlConnection(cadena))
             {
@@ -53,6 +54,7 @@ namespace CapaDatos
                         cmd.Parameters.AddWithValue("@apellidoPa",apellidoPa == null ? "" : apellidoPa);
                         cmd.Parameters.AddWithValue("@apellidoMa",apellidoMa == null ? "" : apellidoMa);
                         cmd.Parameters.AddWithValue("@boleta",boleta == null ? "" : boleta);
+                        cmd.Parameters.AddWithValue("@correo",correo == null ? "" : correo);
                         cmd.Parameters.AddWithValue("@idAlumno",idAlumno == 0 ? 0 : idAlumno);
                         cmd.ExecuteNonQuery();
                     }
@@ -119,6 +121,7 @@ namespace CapaDatos
                             int posApellidopaterno  = drd.GetOrdinal("apellidoPaterno");
                             int posApellidomaterno  = drd.GetOrdinal("apellidoMaterno");
                             int posNumeroboleta  = drd.GetOrdinal("numeroBoleta");
+                            int posCorreo  = drd.GetOrdinal("correo");
 
                             while (drd.Read())
                             {
@@ -128,6 +131,7 @@ namespace CapaDatos
                                 oAlumnosCLS.apellidoPaterno = drd.IsDBNull(posApellidopaterno) ? "" : drd.GetString(posApellidopaterno);
                                 oAlumnosCLS.apellidoMaterno = drd.IsDBNull(posApellidomaterno) ? "" : drd.GetString(posApellidomaterno);
                                 oAlumnosCLS.numeroBoleta = drd.IsDBNull(posNumeroboleta) ? "" : drd.GetString(posNumeroboleta);
+                                oAlumnosCLS.correo = drd.IsDBNull(posCorreo) ? "" : drd.GetString(posCorreo);
 
                                 lista.Add(oAlumnosCLS);
                             }

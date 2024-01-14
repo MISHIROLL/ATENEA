@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "9JZAyKQ1zD0H3XjzAJ+r+mkOkb+wC3Rsj1N/YvIQhtQ=",
+  "Hash": "fvlhRAa6mDWqjRQohCJ9ovCI/LuT9aJacbJJzO7mqbQ=",
   "Source": "ATENEA",
   "BasePath": "_content/ATENEA",
   "Mode": "Default",
@@ -17236,6 +17236,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\favicon.ico"
+    },
+    {
+      "Identity": "C:\\Users\\lzapata\\OneDrive - BIENES PROGRAMADOS S.A. DE C.V\\Imágenes\\ATENEA\\ATENEA\\wwwroot\\js\\Alumnos\\AlumnoReporteAsistencia.js",
+      "SourceId": "ATENEA",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\lzapata\\OneDrive - BIENES PROGRAMADOS S.A. DE C.V\\Imágenes\\ATENEA\\ATENEA\\wwwroot\\",
+      "BasePath": "_content/ATENEA",
+      "RelativePath": "js/Alumnos/AlumnoReporteAsistencia.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\Alumnos\\AlumnoReporteAsistencia.js"
     },
     {
       "Identity": "C:\\Users\\lzapata\\OneDrive - BIENES PROGRAMADOS S.A. DE C.V\\Imágenes\\ATENEA\\ATENEA\\wwwroot\\js\\Alumnos\\Alumnos.js",

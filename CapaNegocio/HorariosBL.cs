@@ -21,10 +21,10 @@ namespace CapaNegocio
             return obj.listarHorarios(nombreHorario);
         }
 
-        public string actualizarAlumno(string nombre,string apellidoPa,string apellidoMa,string boleta,int idAlumno)
+        public string actualizarAlumno(string nombre,string apellidoPa,string apellidoMa,string boleta,string correo,int idAlumno)
         {
             AlumnosDAL obj = new AlumnosDAL();
-            return obj.actualizarAlumno(nombre,apellidoPa,apellidoMa,boleta,idAlumno);
+            return obj.actualizarAlumno(nombre,apellidoPa,apellidoMa,boleta,correo,idAlumno);
         }
         public string eliminarAlumno(int idAlumno)
         {

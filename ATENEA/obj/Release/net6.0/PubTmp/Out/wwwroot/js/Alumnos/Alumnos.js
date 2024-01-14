@@ -8,13 +8,54 @@ function eventlisteners(){
     document.addEventListener('DOMContentLoaded', function(){
         listarComboCiclos()
         listarComboGrupos()
+        // Inicialización de Validetta
+        $('#formRegistroAlumno').validetta({
+            validators: {
+                regExp: {
+                    soloLetras : {
+                        pattern : /^[a-zA-Z]+$/i,
+                        errorMessage : 'Solo se aceptan letras sin espacios.'
+                    }
+                }
+            },
+            bubblePosition: 'bottom',
+            bubbleGapTop: 10,
+            bubbleGapLeft: -5,
+            onValid: function(event) {
+                event.preventDefault();
+                enviarFormularioRegistroAlumnos()
+            },
+            onError: function() {
+            }
+        });
+        $('#formModificarAlumno').validetta({
+            validators: {
+                regExp: {
+                    soloLetras : {
+                        pattern : /^[a-zA-Z]+$/i,
+                        errorMessage : 'Solo se aceptan letras sin espacios.'
+                    }
+                }
+            },
+            bubblePosition: 'bottom',
+            bubbleGapTop: 10,
+            bubbleGapLeft: -5,
+            onValid: function(event) {
+                event.preventDefault();
+                $('#exampleModal').modal('show');
+            },
+            onError: function() {
+            }
+        });
     }) 
 }
+
+// onclick="deshabilitarDivFlex('cuadroAlumno')"
 
 function listarComboCiclos(){
     fetchGet('Combos/ComboCiclo', 'json', function (rpta) {
         llenarCombo(rpta, 'cmbCiclo', 'idCombo', 'txtCombo')
-        // console.log(rpta)
+         console.log(rpta)
     })
 }
 function listarComboGrupos(){
@@ -53,6 +94,7 @@ function editarAlumno(event){
             document.getElementsByName('apellidoPaternoMod')[0].value = Alumno.apellidoPaterno;
             document.getElementsByName('apellidoMaternoMod')[0].value = Alumno.apellidoMaterno;
             document.getElementsByName('numero-boletaMod')[0].value = Alumno.numeroBoleta;
+            document.getElementsByName('correoMod')[0].value = Alumno.correo;
             habilitarDivFlex("cuadroAlumnoModificar")
         })
     }else{
@@ -69,11 +111,13 @@ function enviarFormularioRegistroAlumnos() {
     var apellidoPa = frm.get('apellidoPaterno');
     var apellidoMa = frm.get('apellidoMaterno');
     var boleta = frm.get('numero-boleta');
-    let insertaUrl = 'Alumnos/insertarAlumnos/?nombre='+nombre+'&apellidoPa='+apellidoPa+'&apellidoMa='+apellidoMa+'&boleta='+boleta
+    var correo = frm.get('correo');
+    let insertaUrl = 'Alumnos/insertarAlumnos/?nombre='+nombre+'&apellidoPa='+apellidoPa+'&apellidoMa='+apellidoMa+'&boleta='+boleta+'&correo='+correo
     console.log(insertaUrl)
     fetchGet(insertaUrl, 'text', function (res) {
         console.log(res)
         if (res == 'datos insertados correctamente') {
+            filtrarAlumnos()
             mensajeCorrecto("Alumno registrado correctamente")
         } else {
             mensajeIncorrecto("Hubo un error al registrar")
@@ -91,11 +135,13 @@ function modificarAlumno(){
     var apellidoPa = frm.get('apellidoPaternoMod');
     var apellidoMa = frm.get('apellidoMaternoMod');
     var boleta = frm.get('numero-boletaMod');
-    let actualizarUrl = 'Alumnos/actualizarAlumno/?nombre='+nombre+'&apellidoPa='+apellidoPa+'&apellidoMa='+apellidoMa+'&boleta='+boleta+'&idAlumno='+idAlumno
+    var correo = frm.get('correoMod');
+    let actualizarUrl = 'Alumnos/actualizarAlumno/?nombre='+nombre+'&apellidoPa='+apellidoPa+'&apellidoMa='+apellidoMa+'&boleta='+boleta+'&idAlumno='+idAlumno+'&correo='+correo
     console.log(actualizarUrl)
     fetchGet(actualizarUrl, 'text', function (res) {
         console.log(res)
         if (res == 'datos actualizados correctamente') {
+            filtrarAlumnos()
             mensajeCorrecto("Datos actualizados correctamente.")
         } else {
             mensajeIncorrecto("Hubo un error al actualizar los datos")

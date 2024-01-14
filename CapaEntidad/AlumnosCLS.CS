@@ -9,6 +9,7 @@ namespace CapaEntidad
         public string? apellidoPaterno { get; set; }
         public string? apellidoMaterno { get; set; }
         public string? numeroBoleta { get; set; }
+        public string? correo { get; set; }
 
     }
 }

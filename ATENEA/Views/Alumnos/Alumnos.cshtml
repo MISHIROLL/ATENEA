@@ -50,28 +50,33 @@
                                             <div class="row">
                                                 <div class="mb-3 col-6">
                                                     <label for="nombre" class="form-label">Nombre(s)</label>
-                                                    <input type="text" class="form-control" name="nombreMod"
+                                                    <input type="text" data-validetta="required,regExp[soloLetras],minLength[2],maxLength[30]" class="form-control" name="nombre"
                                                         placeholder="Nombre(s)">
                                                 </div>
                                                 <div class="mb-3 col-6">
                                                     <label for="apellidos" class="form-label">Apellido Paterno</label>
-                                                    <input type="text" class="form-control" name="apellidoPaterno"
+                                                    <input type="text" data-validetta="required,regExp[soloLetras],minLength[2],maxLength[30]" class="form-control" name="apellidoPaterno"
                                                         placeholder="Apellido Paterno">
                                                 </div>
                                                 <div class="mb-3 col-6">
                                                     <label for="apellidos" class="form-label">Apellido Materno</label>
-                                                    <input type="text" class="form-control" name="apellidoMaterno"
+                                                    <input type="text" data-validetta="required,regExp[soloLetras],minLength[2],maxLength[30]" class="form-control" name="apellidoMaterno"
                                                         placeholder="Apellido Materno">
                                                 </div>
                                                 <div class="mb-3 col-6">
                                                     <label for="numero-boleta" class="form-label">Número de
                                                         boleta</label>
-                                                    <input type="text" class="form-control" name="numero-boleta"
+                                                    <input type="text" data-validetta="required,number,minLength[5],maxLength[5]" class="form-control" name="numero-boleta"
                                                         placeholder="Número de boleta">
                                                 </div>
-                                                <div class="text-center col-12">
+                                                <div class="mb-3 col-12">
+                                                    <label for="numero-boleta" class="form-label">Correo electrónico del tutor</label>
+                                                    <input type="text" data-validetta="required,email"class="form-control" name="correo"
+                                                        placeholder="Correo electrónico del tutor">
+                                                </div>
+                                                <div class="text-center col-12 mt-6">
                                                     <button type="button" class="btn btn-danger" onclick="deshabilitarDivFlex('cuadroAlumno')">Cancelar</button>
-                                                    <button type="button" class="btn btn-success" onclick="enviarFormularioRegistroAlumnos()">Registrar</button>
+                                                    <button type="submit" class="btn btn-success" >Registrar</button>
                                                 </div>
                                             </div>
                                         </form>
@@ -89,30 +94,35 @@
                                             <div class="row">
                                                 <div class="mb-3 col-6">
                                                     <label for="nombre" class="form-label">Nombre(s)</label>
-                                                    <input type="text" class="form-control" name="nombreMod"
+                                                    <input type="text" data-validetta="required,regExp[soloLetras],minLength[2],maxLength[30]" class="form-control" name="nombreMod"
                                                         placeholder="Nombre(s)">
                                                 </div>
                                                 <div class="mb-3 col-6">
                                                     <label for="apellidos" class="form-label">Apellido Paterno</label>
-                                                    <input type="text" class="form-control" name="apellidoPaternoMod"
+                                                    <input type="text" data-validetta="required,regExp[soloLetras],minLength[2],maxLength[30]" class="form-control" name="apellidoPaternoMod"
                                                         placeholder="Apellido Paterno">
                                                 </div>
                                                 <div class="mb-3 col-6">
                                                     <label for="apellidos" class="form-label">Apellido Materno</label>
-                                                    <input type="text" class="form-control" name="apellidoMaternoMod"
+                                                    <input type="text" data-validetta="required,regExp[soloLetras],minLength[2],maxLength[30]" class="form-control" name="apellidoMaternoMod"
                                                         placeholder="Apellido Materno">
                                                 </div>
                                                 <div class="mb-3 col-6">
                                                     <label for="numero-boleta" class="form-label">Número de
                                                         boleta</label>
-                                                    <input type="text" class="form-control" name="numero-boletaMod"
+                                                    <input type="text" data-validetta="required,number,minLength[5],maxLength[5]"class="form-control" name="numero-boletaMod"
                                                         placeholder="Número de boleta">
+                                                </div>
+                                                <div class="mb-3 col-12">
+                                                    <label for="numero-boleta" class="form-label">Correo electrónico del tutor</label>
+                                                    <input type="text" data-validetta="required,email"class="form-control" name="correoMod"
+                                                        placeholder="Correo electrónico del tutor">
                                                 </div>
                                                 <div class="text-center col-12">
                                                     <button type="button" class="btn btn-danger" id="abrirModalEliminar" data-toggle="modal"
                                                         data-target="#eliminarAlumnoModal">Eliminar</button>
-                                                    <button type="button" class="btn btn-success" id="abrirModal" data-toggle="modal"
-                                                        data-target="#exampleModal">Modificar</button>
+                                                    <button type="submit" class="btn btn-success" id="abrirModal" 
+                                                        >Modificar</button>
                                                 </div>
 
                                             </div>
@@ -180,6 +190,7 @@
 @section Scripts
 {
     <script src="~/js/echarts.min.js"></script>
+    <script src="~/js/validetta.js"></script>
     <script src="~/js/sweet.js"></script>
     <script src="~/js/generic3.js"></script>
     <script src="~/js/Alumnos/Alumnos.js"></script>
