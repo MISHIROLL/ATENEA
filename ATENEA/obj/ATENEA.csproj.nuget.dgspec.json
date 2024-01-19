@@ -51,6 +51,10 @@
               "target": "Package",
               "version": "[2.16.0, )"
             },
+            "Microsoft.Identity.Web.MicrosoftGraph": {
+              "target": "Package",
+              "version": "[2.16.1, )"
+            },
             "Microsoft.Identity.Web.UI": {
               "target": "Package",
               "version": "[2.16.0, )"

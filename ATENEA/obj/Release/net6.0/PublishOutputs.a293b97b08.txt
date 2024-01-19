@@ -20,6 +20,8 @@ C:\Users\lzapata\OneDrive - BIENES PROGRAMADOS S.A. DE C.V\Imágenes\ATENEA\ATEN
 C:\Users\lzapata\OneDrive - BIENES PROGRAMADOS S.A. DE C.V\Imágenes\ATENEA\ATENEA\obj\Release\net6.0\PubTmp\Out\Microsoft.Extensions.FileProviders.Physical.dll
 C:\Users\lzapata\OneDrive - BIENES PROGRAMADOS S.A. DE C.V\Imágenes\ATENEA\ATENEA\obj\Release\net6.0\PubTmp\Out\Microsoft.Extensions.FileSystemGlobbing.dll
 C:\Users\lzapata\OneDrive - BIENES PROGRAMADOS S.A. DE C.V\Imágenes\ATENEA\ATENEA\obj\Release\net6.0\PubTmp\Out\Microsoft.Extensions.Primitives.dll
+C:\Users\lzapata\OneDrive - BIENES PROGRAMADOS S.A. DE C.V\Imágenes\ATENEA\ATENEA\obj\Release\net6.0\PubTmp\Out\Microsoft.Graph.dll
+C:\Users\lzapata\OneDrive - BIENES PROGRAMADOS S.A. DE C.V\Imágenes\ATENEA\ATENEA\obj\Release\net6.0\PubTmp\Out\Microsoft.Graph.Core.dll
 C:\Users\lzapata\OneDrive - BIENES PROGRAMADOS S.A. DE C.V\Imágenes\ATENEA\ATENEA\obj\Release\net6.0\PubTmp\Out\Microsoft.Identity.Abstractions.dll
 C:\Users\lzapata\OneDrive - BIENES PROGRAMADOS S.A. DE C.V\Imágenes\ATENEA\ATENEA\obj\Release\net6.0\PubTmp\Out\Microsoft.Identity.Client.dll
 C:\Users\lzapata\OneDrive - BIENES PROGRAMADOS S.A. DE C.V\Imágenes\ATENEA\ATENEA\obj\Release\net6.0\PubTmp\Out\Microsoft.Identity.Client.Extensions.Msal.dll
@@ -27,6 +29,7 @@ C:\Users\lzapata\OneDrive - BIENES PROGRAMADOS S.A. DE C.V\Imágenes\ATENEA\ATEN
 C:\Users\lzapata\OneDrive - BIENES PROGRAMADOS S.A. DE C.V\Imágenes\ATENEA\ATENEA\obj\Release\net6.0\PubTmp\Out\Microsoft.Identity.Web.Certificate.dll
 C:\Users\lzapata\OneDrive - BIENES PROGRAMADOS S.A. DE C.V\Imágenes\ATENEA\ATENEA\obj\Release\net6.0\PubTmp\Out\Microsoft.Identity.Web.Certificateless.dll
 C:\Users\lzapata\OneDrive - BIENES PROGRAMADOS S.A. DE C.V\Imágenes\ATENEA\ATENEA\obj\Release\net6.0\PubTmp\Out\Microsoft.Identity.Web.Diagnostics.dll
+C:\Users\lzapata\OneDrive - BIENES PROGRAMADOS S.A. DE C.V\Imágenes\ATENEA\ATENEA\obj\Release\net6.0\PubTmp\Out\Microsoft.Identity.Web.MicrosoftGraph.dll
 C:\Users\lzapata\OneDrive - BIENES PROGRAMADOS S.A. DE C.V\Imágenes\ATENEA\ATENEA\obj\Release\net6.0\PubTmp\Out\Microsoft.Identity.Web.TokenAcquisition.dll
 C:\Users\lzapata\OneDrive - BIENES PROGRAMADOS S.A. DE C.V\Imágenes\ATENEA\ATENEA\obj\Release\net6.0\PubTmp\Out\Microsoft.Identity.Web.TokenCache.dll
 C:\Users\lzapata\OneDrive - BIENES PROGRAMADOS S.A. DE C.V\Imágenes\ATENEA\ATENEA\obj\Release\net6.0\PubTmp\Out\Microsoft.Identity.Web.UI.Views.dll

@@ -88,3 +88,6 @@ C:\Users\lzapata\OneDrive - BIENES PROGRAMADOS S.A. DE C.V\Imágenes\ATENEA\ATEN
 C:\Users\lzapata\OneDrive - BIENES PROGRAMADOS S.A. DE C.V\Imágenes\ATENEA\ATENEA\obj\Release\net6.0\ATENEA.pdb
 C:\Users\lzapata\OneDrive - BIENES PROGRAMADOS S.A. DE C.V\Imágenes\ATENEA\ATENEA\obj\Release\net6.0\ATENEA.genruntimeconfig.cache
 C:\Users\lzapata\OneDrive - BIENES PROGRAMADOS S.A. DE C.V\Imágenes\ATENEA\ATENEA\obj\Release\net6.0\ref\ATENEA.dll
+C:\Users\lzapata\OneDrive - BIENES PROGRAMADOS S.A. DE C.V\Imágenes\ATENEA\ATENEA\bin\Release\net6.0\Microsoft.Graph.dll
+C:\Users\lzapata\OneDrive - BIENES PROGRAMADOS S.A. DE C.V\Imágenes\ATENEA\ATENEA\bin\Release\net6.0\Microsoft.Graph.Core.dll
+C:\Users\lzapata\OneDrive - BIENES PROGRAMADOS S.A. DE C.V\Imágenes\ATENEA\ATENEA\bin\Release\net6.0\Microsoft.Identity.Web.MicrosoftGraph.dll
